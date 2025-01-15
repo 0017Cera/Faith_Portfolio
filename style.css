@@ -1,13 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin:0;
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
 }
 
 header {
-    background: #0078d7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+    background: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -24,6 +29,7 @@ header nav a:hover {
 }
 
 main {
+    margin-top: 90px;
     padding: 20px;
     text-align: center;
 }
@@ -67,4 +73,229 @@ form button {
 
 form button:hover {
     background: #005bb5;
-}
+}/* General styles for each section */
+.section {
+    position: relative;
+    height: 100vh; /* Full screen height */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Specific background images */
+  .yellow {
+    background-image: url('images/inventory.jpg');
+  }
+  
+  .red {
+    background-image: url('images/Salabat.jpg');
+  }
+  
+  .blue {
+    background-image: url('images/salt-farmer.jpg');
+  }
+  
+  /* Blurred textbox styling */
+  .blurred-box {
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border-radius: 10px;
+    backdrop-filter: blur(3px); /* Blurred background effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    text-shadow: #333;
+    color: black;
+    text-align: left;
+  }
+  /* Video styling */
+/* Video styling */
+.blurred-box video {
+    width: 80%; /* Adjust the width as needed (e.g., 80% of the textbox width) */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 20px; /* Add spacing between text and video */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the video */
+  }
+  
+  
+  /* Typography inside the blurred box */
+  .blurred-box h1 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+  }
+  
+  .blurred-box p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  ul {
+    list-style-type: square;
+  }
+  .blurred-box img {
+    width: 80%; /* Adjust width to make it fit */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Add space around the image */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: block; /* Ensure the image is centered */
+  }
+  .container {
+    display: flex;
+  }
+  .home img {
+    width: 80%; /* Adjust width to make it fit */
+    max-width: 800px; /* Set a maximum width */
+    height: 550px; /* Maintain aspect ratio */
+    margin: 20px auto; /* Add space around the image */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: block; /* Ensure the image is centered */
+  }
+ .sidebar {
+  left: 70%;
+  width: 30%;
+  top: 14%;
+  height: 86%;
+  background: #2e3b4e;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  text-align: center;
+  margin-right: 5%;
+ }
+ .profile-pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+ .profile-pic img{
+  width: 175px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ .one-content {
+  margin-top: 40px;
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .two-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .three-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .four-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .five-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .six-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .seven-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .eight-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .last-content {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
