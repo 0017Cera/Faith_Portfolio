@@ -87,14 +87,41 @@ form button:hover {
   /* Specific background images */
   .yellow {
     background-image: url('images/inventory.jpg');
+    margin-top: 40px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    text-shadow: #333;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
   }
   
   .red {
     background-image: url('images/Salabat.jpg');
+    margin-top: 40px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    text-shadow: #333;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
   }
   
   .blue {
     background-image: url('images/salt-farmer.jpg');
+    margin-top: 40px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    text-shadow: #333;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
   }
   
   /* Blurred textbox styling */
@@ -288,6 +315,31 @@ form button:hover {
  }
  .last-content {
   width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .phoneNo {
+  width: 68%;
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 10px;
+  backdrop-filter: blur(3px); /* Blurred background effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+  text-shadow: #333;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+ }
+ .emailAdd {
   position: relative;
   padding: 20px;
   background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
